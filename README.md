@@ -37,7 +37,9 @@ It demonstrates the use of **Factory Pattern** (for reservation creation) and **
 - **Factory Pattern** → `ReservationFactory` handles centralized reservation creation.  
 - **Strategy Pattern** → `PaymentStrategy` interface with implementations:  
   - `CreditCardPayment`  
-  - `UpiPayment`  
+  - `UpiPayment`
+ 
+    for now just use CreditCardPayment
 
 ---
 
